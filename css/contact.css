@@ -1,0 +1,112 @@
+/* Adiciona navegação suave para toda a página */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #363636;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilização básica para o header e navegação */
+header {
+    background-color: #634d95;
+    padding: 10px 0;
+}
+
+header .container {
+    max-width: 1700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header .logo {
+    max-width: 200px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilização para a seção de contato */
+#contato {
+    padding: 50px 20px;
+    background-color: #363636;
+    flex: 1;
+}
+
+#contato h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #634d95;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.contact-icon {
+    height: 24px;
+    width: 24px;
+}
+
+.contact-item p {
+    margin: 0;
+}
+
+.contact-item a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
+
+/* Estilização básica para o footer */
+footer {
+    background-color: #634d95;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}

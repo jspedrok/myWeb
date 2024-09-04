@@ -1,0 +1,102 @@
+/* Adiciona navegação suave para toda a página */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #363636;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+/* Estilização básica para o header e navegação */
+header {
+    background-color: #634d95;
+    padding: 10px 0;
+}
+
+header .container {
+    max-width: 1700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header .logo {
+    max-width: 200px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilização para a seção Sobre Mim */
+#sobre {
+    padding: 50px 20px;
+    background-color: #363636;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.about-photo {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    max-width: 800px;
+}
+
+.about-text h2 {
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    margin-bottom: 15px;
+}
+
+.about-text ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.about-text li {
+    margin-bottom: 10px;
+}
+
+/* Estilização básica para o footer */
+footer {
+    background-color: #634d95;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
